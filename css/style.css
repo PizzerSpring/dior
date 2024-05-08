@@ -1,0 +1,45 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.logo {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+
+.header__list {
+    list-style-type: none;
+}
+
+.header__link {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.header__iconcontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 68px;
+}
+
+.heart {
+    background: url("../images/Vector.png");
+    height: 22px;
+    width: 24px;
+}
+
+.bag {
+    background: url("../images/Vector (1).png");
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 24px;
+}
