@@ -106,4 +106,21 @@ body {
     margin-left: auto;
 }
 
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    content: none;
+}
+
+.swiper {
+    padding-bottom: 50px;
+}
+
+.container-arrow {
+    position: relative;
+}
+
+.swiper-button-next {
+    left: 75px;
+}
+
 
