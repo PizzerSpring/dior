@@ -205,7 +205,7 @@ header {
 }
 
 .middle__inner {
-    padding-left: 183px;
+    margin-left: 248px;
 }
 
 .middle__slide-title {
@@ -221,10 +221,11 @@ header {
     text-transform: uppercase;
     padding: 21.5px 135.5px;
     transition: all .3s ease;
-    margin-left: 248px;
+    margin-left: 258px;
 }
 
 .middle__btn:hover {
     color: #ffffff;
     background: #7449BB;
 }
+

@@ -1,4 +1,6 @@
 const swiper = new Swiper('.swiper', {
+    slidesPerView: 3,
+
     /*effect: 'fade',
     autoplay: {
         delay: 2500,
