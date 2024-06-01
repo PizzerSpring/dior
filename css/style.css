@@ -194,5 +194,37 @@ header {
     font-weight: bold;
 }
 
-/*.........................section__...................................*/
+/*.........................section__middle...................................*/
 
+.middle {
+    margin-bottom: 100px;
+}
+
+.middle .swiper {
+    padding-bottom: 50px;
+}
+
+.middle__inner {
+    padding-left: 183px;
+}
+
+.middle__slide-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.middle__btn {
+    display: inline-block;
+    border: 1px solid #7449BB;
+    font-weight: 700;
+    color: #7449BB;
+    text-transform: uppercase;
+    padding: 21.5px 135.5px;
+    transition: all .3s ease;
+    margin-left: 248px;
+}
+
+.middle__btn:hover {
+    color: #ffffff;
+    background: #7449BB;
+}
