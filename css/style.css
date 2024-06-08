@@ -145,19 +145,19 @@ header {
     right: auto;
 }
 
-/*.........................section__midtext...................................*/
+/*.........................section__about...................................*/
 
-.midtext {
+.about {
     margin-bottom: 150px;
 }
 
-.midtext__inner {
+.about__textbox {
     display: flex;
     justify-content: space-between;
     padding-left: 183px;
 }
 
-.midtext__title {
+.about__title {
     font-family: "Playfair Display", serif;
     font-size: 32px;
     font-weight: 400;
@@ -166,11 +166,11 @@ header {
     margin-bottom: 20px;
 }
 
-.midtext__left {
+.about__text {
     flex-basis: 381px;
 }
 
-.midtext__right {
+.about__text {
     flex-basis: 368px;
     display: flex;
     flex-direction: column;
@@ -200,20 +200,16 @@ header {
     margin-bottom: 100px;
 }
 
-.middle .swiper2 {
-    padding-bottom: 50px;
-}
-
-.middle__inner {
+.aout__inner {
     margin-left: 248px;
 }
 
-.middle__slide-title {
+.about__slide-title {
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-.middle__btn {
+.about__btn {
     display: inline-block;
     border: 1px solid #7449BB;
     font-weight: 700;
@@ -224,7 +220,7 @@ header {
     margin-left: 258px;
 }
 
-.middle__btn:hover {
+.about__btn:hover {
     color: #ffffff;
     background: #7449BB;
 }

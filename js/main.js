@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiperTop = new Swiper('.top__swiper', {
     effect: 'fade',
     autoplay: {
         delay: 2500,
@@ -10,7 +10,7 @@ const swiper = new Swiper('.swiper', {
     },
 });
 
-const swiper2 = new Swiper('.swiper2', {
+const swiperAbout = new Swiper('.about__slider', {
     slidesPerView: 3,
     navigation: {
         nextEl: '.swiper-button-next',
